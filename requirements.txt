@@ -1,0 +1,8 @@
+requests==2.31.*
+google-cloud==0.34.*
+google-cloud-bigquery==3.21.*
+google-cloud-bigquery-datatransfer==3.17.*
+google-cloud-storage==2.16.*
+google-cloud-storage-transfer==1.11.*
+sqlparse==0.5.*
+xmltodict==0.13.*
