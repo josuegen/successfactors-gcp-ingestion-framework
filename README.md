@@ -17,7 +17,7 @@ This is a Python module which leverages the Success Factors REST API to:
 4. Downloads the historical data of the SuccessFactors entity using a query operation to the ODATA API. The data is paginated in one thousand lenght pages and downloaded into local filesystem in new line JSON format: https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/d599f15995d348a1b45ba5603e2aba9b/dc29c875b2934f82a551bbbfa6d546f2.html
 5. Uploads the resulting JSON files into a GCS bucket
 6. Builds and triggers a BigQuery Load Job to load the JSON data into a temporary table, loading all the columns as string
-7. reated table at the point number 3
+7. Builds and run a BigQuery job to parse/cast/convert the string fields into their target data types and save the results into the table created at the point number 3
 8. 
 
 
