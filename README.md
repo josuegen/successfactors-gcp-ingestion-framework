@@ -5,8 +5,8 @@
 1. You have a Success Factors API endpoint and basic auth (user/password)
 2. You have a GCP project the BigQuery, Cloud Storage and Data Fusion APIs activated
 3. You have a comopute platform where to run a Docker application (local, Cloud Run, VM, etc)
-4. The traffic between your compute platform and the Success Factors API is opened
-5. A Service Account with proper lñevel of access to BigQuery and GCS in a GCP project
+4. The traffic between your compute platform and the Success Factors API is open
+5. A Service Account with proper level of access to BigQuery and GCS in a GCP project
 
 ## 
 
