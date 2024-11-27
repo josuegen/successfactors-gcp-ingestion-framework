@@ -40,5 +40,11 @@ The parameters are defined as environment variables and passed to the container.
 |BQ_SQ_SA           | The Service Account email used in the BigQuery scheduled query|
 
 
+## Usage
+Once the container is up and running, it expects a single named parameter
+`--entity <entity-name>` or
+`-e <entity-name>`
+e.g. `--entity EmpJob`
+
 ## Success Factors documentation
 https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/d599f15995d348a1b45ba5603e2aba9b/03e1fc3791684367a6a76a614a2916de.html
